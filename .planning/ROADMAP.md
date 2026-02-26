@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundations** - HTTP, REST, FastAPI basics, request/response handling, and data validation
 - [x] **Phase 2: Data Layer** - SQL fundamentals, SQLAlchemy ORM, and complete CRUD API construction
-- [ ] **Phase 3: Auth and Security** - JWT authentication and role-based authorization
+- [x] **Phase 3: Auth and Security** - JWT authentication and role-based authorization
 - [ ] **Phase 4: Testing and Async** - API testing with pytest and advanced async patterns
 - [ ] **Phase 5: Advanced Features** - Background tasks, caching, file uploads, and WebSockets
 - [ ] **Phase 6: Production Part A** - Docker, CI/CD, security hardening, and performance optimization
@@ -66,7 +66,7 @@ Plans:
 **Plans**: 1 plan
 
 Plans:
-- [ ] 03-01-PLAN.md — Modules 009-010: Authentication with JWT theory+exercises+project, Authorization & Permissions theory+exercises+project (Wave 1)
+- [x] 03-01-PLAN.md — Modules 009-010: Authentication with JWT theory+exercises+project, Authorization & Permissions theory+exercises+project (Wave 1)
 
 ### Phase 4: Testing and Async
 **Goal**: A learner can write comprehensive API tests with pytest and use advanced async patterns for concurrent operations
@@ -153,7 +153,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 |-------|----------------|--------|-----------|
 | 1. Foundations | 2/2 | ✓ Complete | 2026-02-26 |
 | 2. Data Layer | 2/2 | ✓ Complete | 2026-02-26 |
-| 3. Auth and Security | 0/1 | Planned | - |
+| 3. Auth and Security | 1/1 | ✓ Complete | 2026-02-26 |
 | 4. Testing and Async | 0/1 | Not started | - |
 | 5. Advanced Features | 0/2 | Not started | - |
 | 6. Production Part A | 0/2 | Not started | - |
@@ -162,4 +162,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 ---
 *Roadmap created: 2026-02-26*
-*Last updated: 2026-02-26 — Phase 2 complete and verified*
+*Last updated: 2026-02-26 — Phase 3 complete and verified*
