@@ -48,11 +48,11 @@ Plans:
   3. Module 007 exercises cover SQLAlchemy model definitions, relationships, and migration concepts
   4. Module 008 exercises demonstrate the service layer pattern, dependency injection with Depends(), and pagination
   5. Project READMEs describe self-contained data-driven applications (blog schema, task manager, notes API)
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 02-01: Module 006 (SQL and Database Fundamentals)
-- [ ] 02-02: Modules 007-008 (SQLAlchemy ORM and CRUD APIs)
+- [ ] 02-01-PLAN.md — Module 006: SQL & Database Fundamentals theory+exercises+project (Wave 1)
+- [ ] 02-02-PLAN.md — Modules 007-008: SQLAlchemy ORM theory+exercises+project, Building CRUD APIs theory+exercises+project (Wave 1)
 
 ### Phase 3: Auth and Security
 **Goal**: A learner can implement JWT-based authentication and role-based access control in a FastAPI application
@@ -162,4 +162,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 ---
 *Roadmap created: 2026-02-26*
-*Last updated: 2026-02-26 — Phase 1 complete (2/2 plans, verified)*
+*Last updated: 2026-02-26 — Phase 2 planned (2 plans in 1 wave)*
