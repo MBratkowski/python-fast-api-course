@@ -73,9 +73,9 @@ None — this milestone covers all planned modules.
 | FOUND-02 | Phase 1 | Complete |
 | FOUND-03 | Phase 1 | Complete |
 | FOUND-04 | Phase 1 | Complete |
-| DATA-01 | Phase 2 | Pending |
-| DATA-02 | Phase 2 | Pending |
-| DATA-03 | Phase 2 | Pending |
+| DATA-01 | Phase 2 | Complete |
+| DATA-02 | Phase 2 | Complete |
+| DATA-03 | Phase 2 | Complete |
 | AUTH-01 | Phase 3 | Pending |
 | AUTH-02 | Phase 3 | Pending |
 | ADVN-01 | Phase 4 | Pending |
@@ -101,4 +101,4 @@ None — this milestone covers all planned modules.
 
 ---
 *Requirements defined: 2026-02-26*
-*Last updated: 2026-02-26 — Phase 1 requirements marked Complete*
+*Last updated: 2026-02-26 — Phase 2 requirements marked Complete*
