@@ -9,19 +9,19 @@ See: .planning/PROJECT.md (updated 2026-02-26)
 
 ## Current Position
 
-Phase: 2 of 8 (Data Layer) — COMPLETE ✓
-Plan: 2 of 2 in current phase
-Status: Phase verified and complete
-Last activity: 2026-02-26 — Phase 2 verified (5/5 must-haves passed)
+Phase: 3 of 8 (Auth and Security) — IN PROGRESS
+Plan: 1 of 2 in current phase
+Status: Executing phase plans
+Last activity: 2026-02-26 — Completed 03-01-PLAN.md (Modules 009-010)
 
-Progress: [██░░░░░░░░] 25%
+Progress: [███░░░░░░░] 31%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 4
-- Average duration: 11 min
-- Total execution time: 0.7 hours
+- Total plans completed: 5
+- Average duration: 12 min
+- Total execution time: 1.0 hours
 
 **By Phase:**
 
@@ -29,10 +29,11 @@ Progress: [██░░░░░░░░] 25%
 |-------|-------|-------|----------|
 | 1 - Foundations | 2/2 | 19 min | 10 min |
 | 2 - Data Layer | 2/2 | 25 min | 13 min |
+| 3 - Auth and Security | 1/2 | 13 min | 13 min |
 
 **Recent Trend:**
-- Last 3 plans: 11 min, 9 min, 16 min
-- Trend: Slightly increasing with content complexity (~12 min avg)
+- Last 3 plans: 9 min, 16 min, 13 min
+- Trend: Stable around 12-13 min avg for content-heavy plans
 
 *Updated after each plan completion*
 
@@ -57,6 +58,11 @@ Recent decisions affecting current work:
 - [02-02]: Module 008 exercises use TestClient with sync SQLAlchemy to keep tests simple
 - [02-02]: All theory files enforce SQLAlchemy 2.0 patterns exclusively (Mapped, mapped_column, DeclarativeBase)
 - [02-02]: Service layer pattern introduced early as standard architecture in Module 008
+- [03-01]: Use PyJWT (not python-jose which is abandoned) for all JWT operations
+- [03-01]: Use pwdlib with Argon2 (not passlib which is deprecated) for password hashing
+- [03-01]: OAuth2PasswordBearer uses form data not JSON per OAuth2 spec
+- [03-01]: Use 403 for authorization failures, 401 for authentication failures
+- [03-01]: Module 010 exercises provide working auth so learners focus on authorization logic
 
 ### Pending Todos
 
