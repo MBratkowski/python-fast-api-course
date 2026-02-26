@@ -32,11 +32,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. Each module (002-005) contains an exercises/ directory with Python files that have TODO stubs and inline pytest tests that fail until the learner fills in the stubs
   3. Each module (002-005) contains a project/ directory with a README.md that includes requirements, a starter code template, and success criteria
   4. Theory files progress logically from HTTP basics through Pydantic validation, with code examples a mobile developer can follow
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 01-01: Modules 002-003 (HTTP/REST Fundamentals and FastAPI Basics)
-- [ ] 01-02: Modules 004-005 (Request/Response Handling and Pydantic Validation)
+- [ ] 01-01-PLAN.md — Modules 002-003: HTTP/REST Fundamentals theory+exercises+project, FastAPI Basics theory+exercises+project (Wave 1)
+- [ ] 01-02-PLAN.md — Modules 004-005: Request/Response Handling theory+exercises+project, Pydantic Validation theory+exercises+project (Wave 1)
 
 ### Phase 2: Data Layer
 **Goal**: A learner can design database schemas, use SQLAlchemy for data access, and build complete CRUD APIs with service layers
@@ -151,7 +151,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundations | 0/2 | Not started | - |
+| 1. Foundations | 0/2 | Planned | - |
 | 2. Data Layer | 0/2 | Not started | - |
 | 3. Auth and Security | 0/1 | Not started | - |
 | 4. Testing and Async | 0/1 | Not started | - |
@@ -162,4 +162,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 ---
 *Roadmap created: 2026-02-26*
-*Last updated: 2026-02-26*
+*Last updated: 2026-02-26 — Phase 1 planned (2 plans, 1 wave)*
