@@ -69,36 +69,36 @@ None — this milestone covers all planned modules.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| FOUND-01 | TBD | Pending |
-| FOUND-02 | TBD | Pending |
-| FOUND-03 | TBD | Pending |
-| FOUND-04 | TBD | Pending |
-| DATA-01 | TBD | Pending |
-| DATA-02 | TBD | Pending |
-| DATA-03 | TBD | Pending |
-| AUTH-01 | TBD | Pending |
-| AUTH-02 | TBD | Pending |
-| ADVN-01 | TBD | Pending |
-| ADVN-02 | TBD | Pending |
-| FEAT-01 | TBD | Pending |
-| FEAT-02 | TBD | Pending |
-| FEAT-03 | TBD | Pending |
-| FEAT-04 | TBD | Pending |
-| PROD-01 | TBD | Pending |
-| PROD-02 | TBD | Pending |
-| PROD-03 | TBD | Pending |
-| PROD-04 | TBD | Pending |
-| PROD-05 | TBD | Pending |
-| PROD-06 | TBD | Pending |
-| PROD-07 | TBD | Pending |
-| PROD-08 | TBD | Pending |
-| CAPS-01 | TBD | Pending |
+| FOUND-01 | Phase 1 | Pending |
+| FOUND-02 | Phase 1 | Pending |
+| FOUND-03 | Phase 1 | Pending |
+| FOUND-04 | Phase 1 | Pending |
+| DATA-01 | Phase 2 | Pending |
+| DATA-02 | Phase 2 | Pending |
+| DATA-03 | Phase 2 | Pending |
+| AUTH-01 | Phase 3 | Pending |
+| AUTH-02 | Phase 3 | Pending |
+| ADVN-01 | Phase 4 | Pending |
+| ADVN-02 | Phase 4 | Pending |
+| FEAT-01 | Phase 5 | Pending |
+| FEAT-02 | Phase 5 | Pending |
+| FEAT-03 | Phase 5 | Pending |
+| FEAT-04 | Phase 5 | Pending |
+| PROD-01 | Phase 6 | Pending |
+| PROD-02 | Phase 6 | Pending |
+| PROD-03 | Phase 6 | Pending |
+| PROD-04 | Phase 6 | Pending |
+| PROD-05 | Phase 7 | Pending |
+| PROD-06 | Phase 7 | Pending |
+| PROD-07 | Phase 7 | Pending |
+| PROD-08 | Phase 7 | Pending |
+| CAPS-01 | Phase 8 | Pending |
 
 **Coverage:**
 - v1 requirements: 24 total
-- Mapped to phases: 0 (pending roadmap)
-- Unmapped: 24
+- Mapped to phases: 24
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-02-26*
-*Last updated: 2026-02-26 after initial definition*
+*Last updated: 2026-02-26 after roadmap creation*
