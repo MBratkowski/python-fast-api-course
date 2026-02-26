@@ -12,7 +12,7 @@ This roadmap delivers 24 modules of hands-on course content for mobile developer
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundations** - HTTP, REST, FastAPI basics, request/response handling, and data validation
+- [x] **Phase 1: Foundations** - HTTP, REST, FastAPI basics, request/response handling, and data validation
 - [ ] **Phase 2: Data Layer** - SQL fundamentals, SQLAlchemy ORM, and complete CRUD API construction
 - [ ] **Phase 3: Auth and Security** - JWT authentication and role-based authorization
 - [ ] **Phase 4: Testing and Async** - API testing with pytest and advanced async patterns
@@ -35,8 +35,8 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 2 plans
 
 Plans:
-- [ ] 01-01-PLAN.md — Modules 002-003: HTTP/REST Fundamentals theory+exercises+project, FastAPI Basics theory+exercises+project (Wave 1)
-- [ ] 01-02-PLAN.md — Modules 004-005: Request/Response Handling theory+exercises+project, Pydantic Validation theory+exercises+project (Wave 1)
+- [x] 01-01-PLAN.md — Modules 002-003: HTTP/REST Fundamentals theory+exercises+project, FastAPI Basics theory+exercises+project (Wave 1)
+- [x] 01-02-PLAN.md — Modules 004-005: Request/Response Handling theory+exercises+project, Pydantic Validation theory+exercises+project (Wave 1)
 
 ### Phase 2: Data Layer
 **Goal**: A learner can design database schemas, use SQLAlchemy for data access, and build complete CRUD APIs with service layers
@@ -151,7 +151,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundations | 0/2 | Planned | - |
+| 1. Foundations | 2/2 | ✓ Complete | 2026-02-26 |
 | 2. Data Layer | 0/2 | Not started | - |
 | 3. Auth and Security | 0/1 | Not started | - |
 | 4. Testing and Async | 0/1 | Not started | - |
@@ -162,4 +162,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 ---
 *Roadmap created: 2026-02-26*
-*Last updated: 2026-02-26 — Phase 1 planned (2 plans, 1 wave)*
+*Last updated: 2026-02-26 — Phase 1 complete (2/2 plans, verified)*
