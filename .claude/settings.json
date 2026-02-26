@@ -1,0 +1,13 @@
+{
+  "project": {
+    "name": "Backend Development Mastery",
+    "type": "learning",
+    "language": "python",
+    "framework": "fastapi"
+  },
+  "preferences": {
+    "testRunner": "pytest",
+    "formatter": "ruff",
+    "typeChecker": "mypy"
+  }
+}
