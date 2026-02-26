@@ -10,28 +10,28 @@ See: .planning/PROJECT.md (updated 2026-02-26)
 ## Current Position
 
 Phase: 1 of 8 (Foundations)
-Plan: 1 of 2 in current phase
-Status: In progress
-Last activity: 2026-02-26 - Completed 01-01-PLAN.md
+Plan: 2 of 2 in current phase
+Status: Phase complete
+Last activity: 2026-02-26 - Completed 01-02-PLAN.md
 
-Progress: [█░░░░░░░░░] 6%
+Progress: [██░░░░░░░░] 13%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 1
-- Average duration: 8 min
-- Total execution time: 0.1 hours
+- Total plans completed: 2
+- Average duration: 10 min
+- Total execution time: 0.3 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 1 - Foundations | 1/2 | 8 min | 8 min |
+| 1 - Foundations | 2/2 | 19 min | 10 min |
 
 **Recent Trend:**
-- Last plan: 8 min
-- Trend: First plan completed
+- Last 2 plans: 8 min, 11 min
+- Trend: Consistent velocity (~10 min avg)
 
 *Updated after each plan completion*
 
@@ -47,6 +47,9 @@ Recent decisions affecting current work:
 - [01-01]: Module 002 exercises are pure Python (no FastAPI) to focus on HTTP/REST concepts
 - [01-01]: Module 003 exercises use TestClient and async def throughout
 - [01-01]: All theory files include mobile-dev analogies in Why This Matters sections
+- [01-02]: Annotated pattern used consistently in Module 004 exercises for Path/Query/Header
+- [01-02]: Enforced Pydantic v2 patterns exclusively (@field_validator, model_validator, model_dump)
+- [01-02]: Exercise stubs use pass or minimal code to ensure tests fail until implemented
 
 ### Pending Todos
 
@@ -58,6 +61,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-02-26T15:32:32Z
-Stopped at: Completed 01-01-PLAN.md (Module 002 & 003 content)
+Last session: 2026-02-26T15:35:57Z
+Stopped at: Completed 01-02-PLAN.md (Module 004 & 005 content) - Phase 1 complete
 Resume file: None
