@@ -63,10 +63,10 @@ Plans:
   2. Module 009 exercises cover password hashing, JWT token creation/validation, and protecting routes
   3. Module 010 exercises cover role checking, resource ownership verification, and admin-only endpoints
   4. Theory files explain authentication vs authorization with analogies to mobile app auth flows (biometrics, OAuth, token storage)
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] 03-01: Modules 009-010 (Authentication with JWT and Authorization/Permissions)
+- [ ] 03-01-PLAN.md — Modules 009-010: Authentication with JWT theory+exercises+project, Authorization & Permissions theory+exercises+project (Wave 1)
 
 ### Phase 4: Testing and Async
 **Goal**: A learner can write comprehensive API tests with pytest and use advanced async patterns for concurrent operations
@@ -153,7 +153,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 |-------|----------------|--------|-----------|
 | 1. Foundations | 2/2 | ✓ Complete | 2026-02-26 |
 | 2. Data Layer | 2/2 | ✓ Complete | 2026-02-26 |
-| 3. Auth and Security | 0/1 | Not started | - |
+| 3. Auth and Security | 0/1 | Planned | - |
 | 4. Testing and Async | 0/1 | Not started | - |
 | 5. Advanced Features | 0/2 | Not started | - |
 | 6. Production Part A | 0/2 | Not started | - |
