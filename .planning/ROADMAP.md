@@ -152,7 +152,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundations | 2/2 | ✓ Complete | 2026-02-26 |
-| 2. Data Layer | 0/2 | Not started | - |
+| 2. Data Layer | 0/2 | Planned | - |
 | 3. Auth and Security | 0/1 | Not started | - |
 | 4. Testing and Async | 0/1 | Not started | - |
 | 5. Advanced Features | 0/2 | Not started | - |
