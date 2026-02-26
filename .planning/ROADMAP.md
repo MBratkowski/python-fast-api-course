@@ -13,7 +13,7 @@ This roadmap delivers 24 modules of hands-on course content for mobile developer
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundations** - HTTP, REST, FastAPI basics, request/response handling, and data validation
-- [ ] **Phase 2: Data Layer** - SQL fundamentals, SQLAlchemy ORM, and complete CRUD API construction
+- [x] **Phase 2: Data Layer** - SQL fundamentals, SQLAlchemy ORM, and complete CRUD API construction
 - [ ] **Phase 3: Auth and Security** - JWT authentication and role-based authorization
 - [ ] **Phase 4: Testing and Async** - API testing with pytest and advanced async patterns
 - [ ] **Phase 5: Advanced Features** - Background tasks, caching, file uploads, and WebSockets
@@ -51,8 +51,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 02-01-PLAN.md — Module 006: SQL & Database Fundamentals theory+exercises+project (Wave 1)
-- [ ] 02-02-PLAN.md — Modules 007-008: SQLAlchemy ORM theory+exercises+project, Building CRUD APIs theory+exercises+project (Wave 1)
+- [x] 02-01-PLAN.md — Module 006: SQL & Database Fundamentals theory+exercises+project (Wave 1)
+- [x] 02-02-PLAN.md — Modules 007-008: SQLAlchemy ORM theory+exercises+project, Building CRUD APIs theory+exercises+project (Wave 1)
 
 ### Phase 3: Auth and Security
 **Goal**: A learner can implement JWT-based authentication and role-based access control in a FastAPI application
@@ -152,7 +152,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundations | 2/2 | ✓ Complete | 2026-02-26 |
-| 2. Data Layer | 0/2 | Planned | - |
+| 2. Data Layer | 2/2 | ✓ Complete | 2026-02-26 |
 | 3. Auth and Security | 0/1 | Not started | - |
 | 4. Testing and Async | 0/1 | Not started | - |
 | 5. Advanced Features | 0/2 | Not started | - |

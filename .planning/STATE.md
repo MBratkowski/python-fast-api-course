@@ -10,29 +10,29 @@ See: .planning/PROJECT.md (updated 2026-02-26)
 ## Current Position
 
 Phase: 2 of 8 (Data Layer) — IN PROGRESS
-Plan: 1 of 3 in current phase — COMPLETE ✓
-Status: Module 006 content created
-Last activity: 2026-02-26 — Completed 02-01-PLAN.md (Module 006 SQL fundamentals)
+Plan: 2 of 2 in current phase — COMPLETE ✓
+Status: Modules 007-008 content created
+Last activity: 2026-02-26 — Completed 02-02-PLAN.md (Modules 007-008 ORM and CRUD APIs)
 
-Progress: [██░░░░░░░░] 20%
+Progress: [██░░░░░░░░] 25%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 3
-- Average duration: 9 min
-- Total execution time: 0.5 hours
+- Total plans completed: 4
+- Average duration: 11 min
+- Total execution time: 0.7 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 1 - Foundations | 2/2 | 19 min | 10 min |
-| 2 - Data Layer | 1/3 | 9 min | 9 min |
+| 2 - Data Layer | 2/2 | 25 min | 13 min |
 
 **Recent Trend:**
-- Last 3 plans: 8 min, 11 min, 9 min
-- Trend: Consistent velocity (~9 min avg)
+- Last 3 plans: 11 min, 9 min, 16 min
+- Trend: Slightly increasing with content complexity (~12 min avg)
 
 *Updated after each plan completion*
 
@@ -53,6 +53,10 @@ Recent decisions affecting current work:
 - [01-02]: Exercise stubs use pass or minimal code to ensure tests fail until implemented
 - [02-01]: Module 006 exercises are pure Python (no database connection, no SQLAlchemy) to build SQL fundamentals
 - [02-01]: PostgreSQL setup via Docker Compose as primary method (isolated environment pattern)
+- [02-02]: Module 007 exercises use sync SQLAlchemy with SQLite for simplicity (no async setup required)
+- [02-02]: Module 008 exercises use TestClient with sync SQLAlchemy to keep tests simple
+- [02-02]: All theory files enforce SQLAlchemy 2.0 patterns exclusively (Mapped, mapped_column, DeclarativeBase)
+- [02-02]: Service layer pattern introduced early as standard architecture in Module 008
 
 ### Pending Todos
 
@@ -65,5 +69,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-26
-Stopped at: Completed 02-01-PLAN.md (Module 006 SQL fundamentals) — ready for 02-02-PLAN.md
+Stopped at: Completed 02-02-PLAN.md (Modules 007-008 ORM and CRUD APIs) — Phase 2 complete
 Resume file: None
