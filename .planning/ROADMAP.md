@@ -77,10 +77,10 @@ Plans:
   2. Module 011 exercises use TestClient and async testing patterns, with exercises that test CRUD operations, fixtures, and mocking
   3. Module 012 exercises demonstrate asyncio.gather, semaphores, and async error handling with runnable code
   4. Theory files connect async concepts to mobile parallels (coroutines in Kotlin, async/await in Swift, Dart futures)
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] 04-01: Modules 011-012 (Testing APIs and Advanced Async Python)
+- [ ] 04-01-PLAN.md — Modules 011-012: Testing APIs theory+exercises+project, Advanced Async Python theory+exercises+project (Wave 1)
 
 ### Phase 5: Advanced Features
 **Goal**: A learner can implement background tasks, caching, file uploads, and real-time WebSocket communication
