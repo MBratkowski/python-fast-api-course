@@ -27,8 +27,8 @@ Requirements for creating all course module content. Each module gets theory fil
 
 ### Part 4: Testing & Async
 
-- [ ] **ADVN-01**: Module 011 — Testing APIs: 6 theory files (pytest basics, TestClient, async testing, DB fixtures, mocking, coverage), 3 exercises (basic tests, fixture usage, mocking), 1 project (comprehensive CRUD API tests)
-- [ ] **ADVN-02**: Module 012 — Advanced Async Python: 6 theory files (event loop, gather/wait/as_completed, semaphores, async context managers, async generators, exception handling), 3 exercises (concurrent operations, semaphore limiting, error handling), 1 project (data aggregation from multiple services)
+- [x] **ADVN-01**: Module 011 — Testing APIs: 6 theory files (pytest basics, TestClient, async testing, DB fixtures, mocking, coverage), 3 exercises (basic tests, fixture usage, mocking), 1 project (comprehensive CRUD API tests)
+- [x] **ADVN-02**: Module 012 — Advanced Async Python: 6 theory files (event loop, gather/wait/as_completed, semaphores, async context managers, async generators, exception handling), 3 exercises (concurrent operations, semaphore limiting, error handling), 1 project (data aggregation from multiple services)
 
 ### Part 5: Advanced Features
 
@@ -78,8 +78,8 @@ None — this milestone covers all planned modules.
 | DATA-03 | Phase 2 | Complete |
 | AUTH-01 | Phase 3 | Complete |
 | AUTH-02 | Phase 3 | Complete |
-| ADVN-01 | Phase 4 | Pending |
-| ADVN-02 | Phase 4 | Pending |
+| ADVN-01 | Phase 4 | Complete |
+| ADVN-02 | Phase 4 | Complete |
 | FEAT-01 | Phase 5 | Pending |
 | FEAT-02 | Phase 5 | Pending |
 | FEAT-03 | Phase 5 | Pending |
