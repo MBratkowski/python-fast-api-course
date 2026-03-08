@@ -2,13 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: unknown
-last_updated: "2026-02-27T09:54:41.911Z"
+status: completed
+stopped_at: Completed 05-01-PLAN.md
+last_updated: "2026-03-08T17:27:01.554Z"
+last_activity: 2026-03-08 -- Completed 05-02 (Module 015 File Uploads, Module 016 WebSockets)
 progress:
-  total_phases: 4
-  completed_phases: 4
-  total_plans: 6
-  completed_plans: 6
+  total_phases: 8
+  completed_phases: 5
+  total_plans: 8
+  completed_plans: 8
+  percent: 63
 ---
 
 # Project State
@@ -18,23 +21,23 @@ progress:
 See: .planning/PROJECT.md (updated 2026-02-26)
 
 **Core value:** Every module delivers practical, hands-on learning content that a mobile developer can work through independently
-**Current focus:** Phase 3 complete — ready for Phase 4 (Testing and Async)
+**Current focus:** Phase 5 complete -- ready for Phase 6 (Deployment and DevOps)
 
 ## Current Position
 
-Phase: 4 of 8 (Testing and Async) — COMPLETE ✓
-Plan: 1 of 1 in current phase
+Phase: 5 of 8 (Advanced Features) -- COMPLETE
+Plan: 2 of 2 in current phase
 Status: Phase complete
-Last activity: 2026-02-27 — Completed 04-01 (Module 011 Testing APIs, Module 012 Advanced Async Python)
+Last activity: 2026-03-08 -- Completed 05-02 (Module 015 File Uploads, Module 016 WebSockets)
 
-Progress: [█████░░░░░] 50%
+Progress: [██████░░░░] 63%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 6
-- Average duration: 13 min
-- Total execution time: 1.3 hours
+- Total plans completed: 8
+- Average duration: 12 min
+- Total execution time: 1.6 hours
 
 **By Phase:**
 
@@ -44,12 +47,14 @@ Progress: [█████░░░░░] 50%
 | 2 - Data Layer | 2/2 | 25 min | 13 min |
 | 3 - Auth and Security | 1/1 | 21 min | 21 min |
 | 4 - Testing and Async | 1/1 | 16 min | 16 min |
+| 5 - Advanced Features | 2/2 | 12 min | 6 min |
 
 **Recent Trend:**
-- Last 3 plans: 13 min, 21 min, 16 min
-- Trend: Stable around 15-20 min for content-heavy phases
+- Last 3 plans: 16 min, 6 min, 6 min
+- Trend: Faster execution for content creation in later phases
 
 *Updated after each plan completion*
+| Phase 05 P01 | 8min | 2 tasks | 22 files |
 
 ## Accumulated Context
 
@@ -79,6 +84,15 @@ Recent decisions affecting current work:
 - [03-01]: Module 010 exercises provide working auth so learners focus on authorization logic
 - [Phase 04-testing-and-async]: Module 011 exercises provide pre-built apps for students to test against (not build)
 - [Phase 04-testing-and-async]: Module 012 exercises are standalone runnable async scripts with embedded tests
+- [05-02]: Module 015 exercises use local file storage only (no cloud dependencies)
+- [05-02]: Module 016 exercises use TestClient websocket_connect for self-contained testing
+- [05-02]: WebSocket authentication uses PyJWT via query parameter token (consistent with Phase 3)
+- [05-02]: Three-gate file validation pattern: content-type, magic numbers, file size
+- [05-02]: ConnectionManager pattern from FastAPI docs as standard for WebSocket exercises
+- [Phase 05-01]: Module 014 exercises use fakeredis for all Redis operations (no Docker required)
+- [Phase 05-01]: Use redis-py with redis.asyncio (not deprecated aioredis) for async Redis operations
+- [Phase 05-01]: Use FastAPI lifespan context manager (not deprecated on_event) for Redis connection lifecycle
+- [Phase 05-01]: Module 013 exercises use task.apply() for synchronous Celery testing without running worker
 
 ### Pending Todos
 
@@ -90,6 +104,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-02-27
-Stopped at: Completed 04-01-PLAN.md — Phase 4 complete
+Last session: 2026-03-08T17:26:57.731Z
+Stopped at: Completed 05-01-PLAN.md
 Resume file: None

@@ -16,7 +16,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 2: Data Layer** - SQL fundamentals, SQLAlchemy ORM, and complete CRUD API construction
 - [x] **Phase 3: Auth and Security** - JWT authentication and role-based authorization
 - [ ] **Phase 4: Testing and Async** - API testing with pytest and advanced async patterns
-- [ ] **Phase 5: Advanced Features** - Background tasks, caching, file uploads, and WebSockets
+- [x] **Phase 5: Advanced Features** - Background tasks, caching, file uploads, and WebSockets (completed 2026-03-08)
 - [ ] **Phase 6: Production Part A** - Docker, CI/CD, security hardening, and performance optimization
 - [ ] **Phase 7: Production Part B** - Logging, API versioning, rate limiting, and microservices
 - [ ] **Phase 8: Capstone** - Comprehensive project integrating all prior concepts
@@ -80,7 +80,7 @@ Plans:
 **Plans**: 1 plan
 
 Plans:
-- [ ] 04-01-PLAN.md — Modules 011-012: Testing APIs theory+exercises+project, Advanced Async Python theory+exercises+project (Wave 1)
+- [x] 04-01-PLAN.md — Modules 011-012: Testing APIs theory+exercises+project, Advanced Async Python theory+exercises+project (Wave 1)
 
 ### Phase 5: Advanced Features
 **Goal**: A learner can implement background tasks, caching, file uploads, and real-time WebSocket communication
@@ -95,8 +95,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 05-01-PLAN.md — Modules 013-014: Background Tasks & Queues theory+exercises+project, Caching with Redis theory+exercises+project (Wave 1)
-- [ ] 05-02-PLAN.md — Modules 015-016: File Uploads & Storage theory+exercises+project, WebSockets & Real-Time theory+exercises+project (Wave 1)
+- [x] 05-01-PLAN.md — Modules 013-014: Background Tasks & Queues theory+exercises+project, Caching with Redis theory+exercises+project (Wave 1)
+- [x] 05-02-PLAN.md — Modules 015-016: File Uploads & Storage theory+exercises+project, WebSockets & Real-Time theory+exercises+project (Wave 1)
 
 ### Phase 6: Production Part A
 **Goal**: A learner can containerize applications, set up CI/CD pipelines, apply security best practices, and optimize API performance
@@ -151,15 +151,15 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundations | 2/2 | ✓ Complete | 2026-02-26 |
-| 2. Data Layer | 2/2 | ✓ Complete | 2026-02-26 |
-| 3. Auth and Security | 1/1 | ✓ Complete | 2026-02-26 |
-| 4. Testing and Async | 0/1 | Not started | - |
-| 5. Advanced Features | 0/2 | Not started | - |
+| 1. Foundations | 2/2 | Complete | 2026-02-26 |
+| 2. Data Layer | 2/2 | Complete | 2026-02-26 |
+| 3. Auth and Security | 1/1 | Complete | 2026-02-26 |
+| 4. Testing and Async | 1/1 | Complete | 2026-02-27 |
+| 5. Advanced Features | 2/2 | Complete   | 2026-03-08 |
 | 6. Production Part A | 0/2 | Not started | - |
 | 7. Production Part B | 0/2 | Not started | - |
 | 8. Capstone | 0/1 | Not started | - |
 
 ---
 *Roadmap created: 2026-02-26*
-*Last updated: 2026-03-08 — Phase 5 plans created*
+*Last updated: 2026-03-08 -- Phase 5 complete*

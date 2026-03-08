@@ -32,10 +32,10 @@ Requirements for creating all course module content. Each module gets theory fil
 
 ### Part 5: Advanced Features
 
-- [ ] **FEAT-01**: Module 013 — Background Tasks & Queues: 6 theory files (when to use, FastAPI BackgroundTasks, Celery setup, Redis broker, retries/errors, scheduled tasks), 3 exercises (background tasks, Celery tasks, retry logic), 1 project (email notification system)
-- [ ] **FEAT-02**: Module 014 — Caching with Redis: 6 theory files (why cache, Redis setup, caching patterns, TTL/expiration, cache invalidation, data structures), 3 exercises (basic caching, TTL management, invalidation), 1 project (caching layer for API)
-- [ ] **FEAT-03**: Module 015 — File Uploads & Storage: 6 theory files (UploadFile, validation, local storage, S3 integration, presigned URLs, image processing), 3 exercises (file upload endpoint, validation, storage patterns), 1 project (file upload service)
-- [ ] **FEAT-04**: Module 016 — WebSockets & Real-Time: 6 theory files (WebSocket vs HTTP, FastAPI WebSocket, connection manager, broadcasting/rooms, WS auth, scaling with Redis), 3 exercises (basic WebSocket, connection manager, broadcasting), 1 project (real-time notification system)
+- [x] **FEAT-01**: Module 013 — Background Tasks & Queues: 6 theory files (when to use, FastAPI BackgroundTasks, Celery setup, Redis broker, retries/errors, scheduled tasks), 3 exercises (background tasks, Celery tasks, retry logic), 1 project (email notification system)
+- [x] **FEAT-02**: Module 014 — Caching with Redis: 6 theory files (why cache, Redis setup, caching patterns, TTL/expiration, cache invalidation, data structures), 3 exercises (basic caching, TTL management, invalidation), 1 project (caching layer for API)
+- [x] **FEAT-03**: Module 015 — File Uploads & Storage: 6 theory files (UploadFile, validation, local storage, S3 integration, presigned URLs, image processing), 3 exercises (file upload endpoint, validation, storage patterns), 1 project (file upload service)
+- [x] **FEAT-04**: Module 016 — WebSockets & Real-Time: 6 theory files (WebSocket vs HTTP, FastAPI WebSocket, connection manager, broadcasting/rooms, WS auth, scaling with Redis), 3 exercises (basic WebSocket, connection manager, broadcasting), 1 project (real-time notification system)
 
 ### Part 6: Production
 
@@ -80,10 +80,10 @@ None — this milestone covers all planned modules.
 | AUTH-02 | Phase 3 | Complete |
 | ADVN-01 | Phase 4 | Complete |
 | ADVN-02 | Phase 4 | Complete |
-| FEAT-01 | Phase 5 | Pending |
-| FEAT-02 | Phase 5 | Pending |
-| FEAT-03 | Phase 5 | Pending |
-| FEAT-04 | Phase 5 | Pending |
+| FEAT-01 | Phase 5 | Complete |
+| FEAT-02 | Phase 5 | Complete |
+| FEAT-03 | Phase 5 | Complete |
+| FEAT-04 | Phase 5 | Complete |
 | PROD-01 | Phase 6 | Pending |
 | PROD-02 | Phase 6 | Pending |
 | PROD-03 | Phase 6 | Pending |
