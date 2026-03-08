@@ -124,11 +124,11 @@ Plans:
   3. Module 022 exercises implement URL path versioning and header-based versioning with deprecation handling
   4. Module 023 exercises implement token bucket and sliding window rate limiting algorithms
   5. Module 024 exercises demonstrate service-to-service communication and message passing patterns
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 07-01: Modules 021-022 (Logging/Monitoring and API Versioning)
-- [ ] 07-02: Modules 023-024 (Rate Limiting and Microservices Basics)
+- [ ] 07-01-PLAN.md — Modules 021-022: Logging & Monitoring theory+exercises+project, API Versioning theory+exercises+project (Wave 1)
+- [ ] 07-02-PLAN.md — Modules 023-024: Rate Limiting theory+exercises+project, Microservices Basics theory+exercises+project (Wave 1)
 
 ### Phase 8: Capstone
 **Goal**: A learner can synthesize all course concepts into a planned, designed, and structured full-stack API project
@@ -162,4 +162,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 ---
 *Roadmap created: 2026-02-26*
-*Last updated: 2026-03-08 -- Phase 6 planned*
+*Last updated: 2026-03-08 -- Phase 7 planned*
