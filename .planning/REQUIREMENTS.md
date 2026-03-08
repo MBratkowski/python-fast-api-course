@@ -43,8 +43,8 @@ Requirements for creating all course module content. Each module gets theory fil
 - [ ] **PROD-02**: Module 018 — CI/CD & Deployment: 6 theory files (CI/CD concepts, GitHub Actions, CI testing, Docker image building, cloud deployment, env vars/secrets), 3 exercises (workflow file, test pipeline, deployment config), 1 project (full CI/CD pipeline)
 - [ ] **PROD-03**: Module 019 — Security Best Practices: 7 theory files (OWASP top 10, input validation, SQL injection, CORS, rate limiting, secrets management, security headers), 3 exercises (identify vulnerabilities, CORS config, input sanitization), 1 project (security audit and hardening)
 - [ ] **PROD-04**: Module 020 — Performance Optimization: 6 theory files (profiling, query analysis, N+1 queries, connection pooling, async best practices, load testing), 3 exercises (profile code, fix N+1, load test), 1 project (profile and optimize slow endpoint)
-- [ ] **PROD-05**: Module 021 — Logging & Monitoring: 6 theory files (Python logging, structured logging, request tracing, Sentry, Prometheus metrics, health checks), 3 exercises (logging config, structured logs, health endpoint), 1 project (comprehensive logging/monitoring)
-- [ ] **PROD-06**: Module 022 — API Versioning: 6 theory files (why version, URL path versioning, header versioning, breaking vs non-breaking, deprecation, maintaining versions), 3 exercises (URL versioning, header versioning, deprecation), 1 project (add versioning with migration path)
+- [x] **PROD-05**: Module 021 — Logging & Monitoring: 6 theory files (Python logging, structured logging, request tracing, Sentry, Prometheus metrics, health checks), 3 exercises (logging config, structured logs, health endpoint), 1 project (comprehensive logging/monitoring)
+- [x] **PROD-06**: Module 022 — API Versioning: 6 theory files (why version, URL path versioning, header versioning, breaking vs non-breaking, deprecation, maintaining versions), 3 exercises (URL versioning, header versioning, deprecation), 1 project (add versioning with migration path)
 - [ ] **PROD-07**: Module 023 — Rate Limiting: 6 theory files (algorithms, Redis implementation, per-user vs per-IP, monthly quotas, response headers, client handling), 3 exercises (token bucket, sliding window, per-user limits), 1 project (implement rate limiting)
 - [ ] **PROD-08**: Module 024 — Microservices Basics: 6 theory files (when to use, service boundaries, sync communication, async communication, API gateway, data consistency), 3 exercises (service communication, message passing, gateway routing), 1 project (split monolith into two services)
 
@@ -88,8 +88,8 @@ None — this milestone covers all planned modules.
 | PROD-02 | Phase 6 | Pending |
 | PROD-03 | Phase 6 | Pending |
 | PROD-04 | Phase 6 | Pending |
-| PROD-05 | Phase 7 | Pending |
-| PROD-06 | Phase 7 | Pending |
+| PROD-05 | Phase 7 | Complete |
+| PROD-06 | Phase 7 | Complete |
 | PROD-07 | Phase 7 | Pending |
 | PROD-08 | Phase 7 | Pending |
 | CAPS-01 | Phase 8 | Pending |
