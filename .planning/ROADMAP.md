@@ -92,11 +92,11 @@ Plans:
   3. Module 014 exercises demonstrate Redis caching with TTL management and cache invalidation strategies
   4. Module 015 exercises handle file upload validation, storage patterns, and UploadFile usage
   5. Module 016 exercises implement WebSocket connections, a connection manager, and broadcasting
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 05-01: Modules 013-014 (Background Tasks and Caching with Redis)
-- [ ] 05-02: Modules 015-016 (File Uploads and WebSockets)
+- [ ] 05-01-PLAN.md — Modules 013-014: Background Tasks & Queues theory+exercises+project, Caching with Redis theory+exercises+project (Wave 1)
+- [ ] 05-02-PLAN.md — Modules 015-016: File Uploads & Storage theory+exercises+project, WebSockets & Real-Time theory+exercises+project (Wave 1)
 
 ### Phase 6: Production Part A
 **Goal**: A learner can containerize applications, set up CI/CD pipelines, apply security best practices, and optimize API performance
@@ -162,4 +162,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 ---
 *Roadmap created: 2026-02-26*
-*Last updated: 2026-02-26 — Phase 3 complete and verified*
+*Last updated: 2026-03-08 — Phase 5 plans created*
