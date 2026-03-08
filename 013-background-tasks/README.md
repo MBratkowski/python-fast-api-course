@@ -1,60 +1,107 @@
-# Module 013: Background Tasks & Queues
+# Module 013: Background Tasks and Queues
 
 ## Why This Module?
 
-Some operations shouldn't block the API response: sending emails, processing uploads, generating reports. Learn background task processing.
+Learn how to handle work that doesn't need to happen during the request/response cycle. Background tasks let your API respond instantly while processing emails, reports, image resizing, and other heavy operations behind the scenes.
 
 ## What You'll Learn
 
-- FastAPI BackgroundTasks
-- Celery task queue
-- Redis as message broker
-- Task monitoring
-- Retry strategies
-- Scheduled tasks
+- When to offload work from the request/response cycle
+- FastAPI's built-in BackgroundTasks for lightweight post-response work
+- Celery task queue for distributed, persistent, and retryable tasks
+- Redis as a message broker for Celery
+- Retry patterns with exponential backoff and jitter
+- Scheduled/periodic tasks with Celery Beat
+
+## Mobile Developer Context
+
+You've handled background processing on mobile: GCD queues and BGTaskScheduler (iOS), WorkManager and Coroutine Dispatchers (Android). Backend background processing is the same concept but with a critical difference: you have full control over the task lifecycle -- no OS-imposed limits on execution time, no battery optimization killing your tasks.
+
+**Background Processing Across Platforms:**
+
+| Concept | iOS/Swift | Android/Kotlin | Python/FastAPI |
+|---------|-----------|----------------|----------------|
+| Simple background task | `DispatchQueue.global().async` | `Dispatchers.IO` / `withContext` | `BackgroundTasks.add_task()` |
+| Heavy background processing | `BGTaskScheduler` | `WorkManager` | Celery task queue |
+| Retry with backoff | `BGTaskScheduler` with constraints | `WorkManager.setBackoffPolicy()` | `autoretry_for` + `retry_backoff=True` |
+| Scheduled/periodic tasks | `BGAppRefreshTaskRequest` | `PeriodicWorkRequest` | Celery Beat |
+| Task persistence | System-managed | Room DB (WorkManager) | Redis broker |
+| Task monitoring | Xcode console | WorkManager Inspector | Flower dashboard |
+
+**Key Differences from Mobile:**
+
+1. **No OS restrictions**: Mobile OS limits background time (30s on iOS). Backend tasks can run for hours
+2. **External broker**: Mobile tasks queue in-process or in local DB. Backend tasks use Redis/RabbitMQ as external queue
+3. **Horizontal scaling**: Mobile runs on one device. Celery workers can scale across multiple servers
+4. **Full lifecycle control**: You manage retries, timeouts, and failure handling -- no OS doing it for you
+5. **Two tiers**: FastAPI has lightweight (BackgroundTasks) and heavyweight (Celery) -- mobile typically has one system
 
 ## Topics
 
 ### Theory
 1. When to Use Background Tasks
-2. FastAPI BackgroundTasks (simple)
-3. Celery Setup & Configuration
-4. Redis as Broker
-5. Task Retries & Error Handling
+2. FastAPI BackgroundTasks
+3. Celery Setup and Configuration
+4. Redis as Message Broker
+5. Retries and Error Handling
 6. Scheduled Tasks with Celery Beat
 
+### Exercises
+1. FastAPI BackgroundTasks
+2. Celery Task Definitions
+3. Retry Logic Patterns
+
 ### Project
-Build email notification system with background processing.
+Email notification system with background processing, retries, and scheduled digests.
 
 ## Example
 
 ```python
-# Simple background task
-from fastapi import BackgroundTasks
+from fastapi import BackgroundTasks, FastAPI
 
-def send_email(email: str, message: str):
-    # Slow operation
-    ...
+app = FastAPI()
 
-@router.post("/signup")
-async def signup(
-    user: UserCreate,
+def send_welcome_email(email: str, name: str):
+    """Runs after the response is sent."""
+    # Simulate sending email (this could take seconds)
+    print(f"Sending welcome email to {email}")
+
+@app.post("/register")
+async def register_user(
+    email: str,
+    name: str,
     background_tasks: BackgroundTasks
 ):
-    user = await create_user(user)
-    background_tasks.add_task(send_email, user.email, "Welcome!")
-    return user  # Response sent immediately
+    # Create user in DB (fast)
+    user = {"email": email, "name": name}
 
-# Celery for heavy tasks
-from celery import Celery
+    # Queue email for after response (non-blocking)
+    background_tasks.add_task(send_welcome_email, email, name)
 
-celery = Celery("tasks", broker="redis://localhost:6379")
-
-@celery.task(bind=True, max_retries=3)
-def process_upload(self, file_id: int):
-    try:
-        # Heavy processing
-        ...
-    except Exception as e:
-        self.retry(countdown=60)
+    # Response returns immediately
+    return {"message": "User registered", "user": user}
 ```
+
+## Quick Assessment
+
+Before starting this module, ask yourself:
+- Have you used GCD/Dispatch queues (iOS) or Coroutine Dispatchers (Android)?
+- Do you understand why sending an email shouldn't block an API response?
+- Have you worked with WorkManager (Android) or BGTaskScheduler (iOS)?
+
+If yes, you're ready. You already understand why background processing exists -- now you'll learn the backend tools.
+
+## Time Estimate
+
+6-8 hours total:
+- Theory: 2-3 hours
+- Exercises: 2-3 hours
+- Project: 2-3 hours
+
+## Key Differences from Mobile
+
+1. **Two-tier system**: BackgroundTasks (in-process, lightweight) vs Celery (external, heavyweight) -- choose based on complexity
+2. **No battery constraints**: Backend tasks don't compete with user experience for resources
+3. **External state**: Task state lives in Redis, not in app memory -- survives restarts
+4. **Worker processes**: Celery tasks run in separate worker processes, not in your API process
+5. **Monitoring**: Flower provides a web dashboard for task monitoring (like WorkManager Inspector but for production)
