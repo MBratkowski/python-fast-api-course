@@ -108,11 +108,11 @@ Plans:
   3. Module 018 exercises create GitHub Actions workflow files and deployment configurations
   4. Module 019 exercises identify vulnerabilities, configure CORS, and sanitize inputs against OWASP top 10
   5. Module 020 exercises profile code, fix N+1 query problems, and configure connection pooling
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 06-01: Modules 017-018 (Docker and CI/CD)
-- [ ] 06-02: Modules 019-020 (Security Best Practices and Performance)
+- [ ] 06-01-PLAN.md — Modules 017-018: Docker & Containers theory+exercises+project, CI/CD & Deployment theory+exercises+project (Wave 1)
+- [ ] 06-02-PLAN.md — Modules 019-020: Security Best Practices theory+exercises+project, Performance Optimization theory+exercises+project (Wave 1)
 
 ### Phase 7: Production Part B
 **Goal**: A learner can add observability, version APIs, implement rate limiting, and understand microservice decomposition
@@ -162,4 +162,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 ---
 *Roadmap created: 2026-02-26*
-*Last updated: 2026-03-08 -- Phase 5 complete*
+*Last updated: 2026-03-08 -- Phase 6 planned*
