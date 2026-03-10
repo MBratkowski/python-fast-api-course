@@ -2,9 +2,9 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: in-progress
+status: executing
 stopped_at: Completed 08-02-PLAN.md
-last_updated: "2026-03-10T17:36:36Z"
+last_updated: "2026-03-10T17:41:03.504Z"
 last_activity: 2026-03-10 -- Completed 08-02 (Module 025 README and Project Guide)
 progress:
   total_phases: 8
@@ -21,14 +21,14 @@ progress:
 See: .planning/PROJECT.md (updated 2026-02-26)
 
 **Core value:** Every module delivers practical, hands-on learning content that a mobile developer can work through independently
-**Current focus:** Phase 8 in progress -- Capstone (Module 025 README and Project Guide complete)
+**Current focus:** Phase 8 in progress -- Capstone (Module 025 theory, exercises, and README complete)
 
 ## Current Position
 
 Phase: 8 of 8 (Capstone)
 Plan: 2 of 3 in current phase -- COMPLETE
 Status: Phase 8 in progress
-Last activity: 2026-03-10 -- Completed 08-02 (Module 025 README and Project Guide)
+Last activity: 2026-03-10 -- Completed 08-01 (Module 025 Theory and Exercises)
 
 Progress: [████████░░] 86%
 
@@ -57,6 +57,7 @@ Progress: [████████░░] 86%
 *Updated after each plan completion*
 | Phase 07 P01 | 13min | 2 tasks | 22 files |
 | Phase 07 P02 | 14min | 2 tasks | 22 files |
+| Phase 08 P01 | 7min | 2 tasks | 9 files |
 | Phase 08 P02 | 3min | 3 tasks | 2 files |
 
 ## Accumulated Context
@@ -103,6 +104,9 @@ Recent decisions affecting current work:
 - [07-02]: Rate limiting exercises implement algorithms from scratch (not slowapi) for deeper understanding
 - [07-02]: Module 024 exercises use httpx.ASGITransport to simulate multi-service architectures in single files
 - [07-02]: Redis pub/sub exercise uses fakeredis with decode_responses=True for string handling
+- [08-01]: Theory files use synthesis pattern (Quick Review, How They Compose, Decision Framework, Capstone Application, Checklist) not module recaps
+- [08-01]: Exercises use Pydantic models for planning artifacts (APIDesign, DatabaseSchema, TestPlan) validated by pytest
+- [08-01]: Capstone Application sections rotate project options across theory files for balanced coverage
 - [08-02]: E-Commerce payment integration (Stripe) marked as bonus to keep project options at comparable difficulty
 - [08-02]: Grading rubric: 100 points across 5 categories plus 10 bonus points
 
@@ -116,6 +120,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-10T17:36:36Z
-Stopped at: Completed 08-02-PLAN.md
+Last session: 2026-03-10T17:40:15Z
+Stopped at: Completed 08-01-PLAN.md
 Resume file: None
