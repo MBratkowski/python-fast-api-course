@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 09-01-PLAN.md
-last_updated: "2026-03-10T18:23:00Z"
-last_activity: 2026-03-10 -- Completed 09-01 (Module 018 CI/CD Content)
+stopped_at: Completed 09-02-PLAN.md
+last_updated: "2026-03-10T18:25:54Z"
+last_activity: 2026-03-10 -- Completed 09-02 (Module 020 Performance Optimization Content)
 progress:
   total_phases: 10
-  completed_phases: 7
+  completed_phases: 8
   total_plans: 16
-  completed_plans: 13
-  percent: 81
+  completed_plans: 14
+  percent: 88
 ---
 
 # Project State
@@ -21,16 +21,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-02-26)
 
 **Core value:** Every module delivers practical, hands-on learning content that a mobile developer can work through independently
-**Current focus:** Phase 9 in progress -- Complete Missing Content (Module 018 CI/CD complete)
+**Current focus:** Phase 9 complete -- Complete Missing Content (Modules 018 and 020 done)
 
 ## Current Position
 
 Phase: 9 of 10 (Complete Missing Content)
-Plan: 1 of 2 in current phase -- COMPLETE
-Status: Phase 9 in progress
-Last activity: 2026-03-10 -- Completed 09-01 (Module 018 CI/CD Content)
+Plan: 2 of 2 in current phase -- COMPLETE
+Status: Phase 9 complete
+Last activity: 2026-03-10 -- Completed 09-02 (Module 020 Performance Optimization Content)
 
-Progress: [████████░░] 81%
+Progress: [█████████░] 88%
 
 ## Performance Metrics
 
@@ -60,6 +60,7 @@ Progress: [████████░░] 81%
 | Phase 08 P01 | 7min | 2 tasks | 9 files |
 | Phase 08 P02 | 3min | 3 tasks | 2 files |
 | Phase 09 P01 | 5min | 2 tasks | 7 files |
+| Phase 09 P02 | 8min | 2 tasks | 11 files |
 
 ## Accumulated Context
 
@@ -113,6 +114,10 @@ Recent decisions affecting current work:
 - [09-01]: Dict-to-YAML pattern used for CI/CD exercises since they validate YAML structure, not executable Python
 - [09-01]: Three deployment platforms covered (Railway, Fly.io, AWS ECS) at increasing complexity levels
 - [09-01]: Pydantic BaseSettings pattern taught as standard FastAPI configuration approach
+- [09-02]: Exercises use SQLite in-memory and pure Python (no external dependencies for profiling/benchmarking)
+- [09-02]: Exercise 02 uses sync SQLAlchemy 2.0 with DeclarativeBase matching Module 007 pattern
+- [09-02]: Exercise 03 uses dict-based load test config instead of Locust import (avoids dependency)
+- [09-02]: Theory files include comparison tables mapping mobile profiling tools to Python equivalents
 
 ### Pending Todos
 
@@ -124,6 +129,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-10T18:22:35Z
-Stopped at: Completed 09-01-PLAN.md
+Last session: 2026-03-10T18:25:54Z
+Stopped at: Completed 09-02-PLAN.md
 Resume file: None
