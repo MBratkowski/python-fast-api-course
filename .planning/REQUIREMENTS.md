@@ -40,7 +40,7 @@ Requirements for creating all course module content. Each module gets theory fil
 ### Part 6: Production
 
 - [ ] **PROD-01**: Module 017 — Docker & Containers: 6 theory files (container concepts, Dockerfile, multi-stage builds, Docker Compose, networking, production optimizations), 3 exercises (write Dockerfile, compose setup, multi-stage build), 1 project (containerize API with PostgreSQL/Redis)
-- [ ] **PROD-02**: Module 018 — CI/CD & Deployment: 6 theory files (CI/CD concepts, GitHub Actions, CI testing, Docker image building, cloud deployment, env vars/secrets), 3 exercises (workflow file, test pipeline, deployment config), 1 project (full CI/CD pipeline)
+- [x] **PROD-02**: Module 018 — CI/CD & Deployment: 6 theory files (CI/CD concepts, GitHub Actions, CI testing, Docker image building, cloud deployment, env vars/secrets), 3 exercises (workflow file, test pipeline, deployment config), 1 project (full CI/CD pipeline)
 - [ ] **PROD-03**: Module 019 — Security Best Practices: 7 theory files (OWASP top 10, input validation, SQL injection, CORS, rate limiting, secrets management, security headers), 3 exercises (identify vulnerabilities, CORS config, input sanitization), 1 project (security audit and hardening)
 - [ ] **PROD-04**: Module 020 — Performance Optimization: 6 theory files (profiling, query analysis, N+1 queries, connection pooling, async best practices, load testing), 3 exercises (profile code, fix N+1, load test), 1 project (profile and optimize slow endpoint)
 - [x] **PROD-05**: Module 021 — Logging & Monitoring: 6 theory files (Python logging, structured logging, request tracing, Sentry, Prometheus metrics, health checks), 3 exercises (logging config, structured logs, health endpoint), 1 project (comprehensive logging/monitoring)
@@ -85,7 +85,7 @@ None — this milestone covers all planned modules.
 | FEAT-03 | Phase 5 | Complete |
 | FEAT-04 | Phase 5 | Complete |
 | PROD-01 | Phase 10 | Pending |
-| PROD-02 | Phase 9 | Pending |
+| PROD-02 | Phase 9 | Complete |
 | PROD-03 | Phase 10 | Pending |
 | PROD-04 | Phase 9 | Pending |
 | PROD-05 | Phase 7 | Complete |
