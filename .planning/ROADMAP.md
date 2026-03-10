@@ -139,10 +139,11 @@ Plans:
   2. Theory files cover API design planning, schema design, architecture review, and deployment checklists as synthesis of prior modules
   3. Exercises guide learners through design review, schema modeling, and test planning for a capstone-scale project
   4. The existing project README is enhanced with detailed starter templates, grading rubrics, and phased implementation guidance
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 08-01: Module 025 (Capstone Project content)
+- [ ] 08-01-PLAN.md — Module 025 theory files (6 synthesis documents) and exercises (3 planning artifact exercises with Pydantic + pytest)
+- [ ] 08-02-PLAN.md — Module 025 README (standard module framing) and project/README.md (rubrics, phased guide, starter templates)
 
 ## Progress
 
@@ -158,8 +159,8 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 5. Advanced Features | 2/2 | Complete   | 2026-03-08 |
 | 6. Production Part A | 0/2 | Not started | - |
 | 7. Production Part B | 2/2 | Complete   | 2026-03-08 |
-| 8. Capstone | 0/1 | Not started | - |
+| 8. Capstone | 0/2 | Not started | - |
 
 ---
 *Roadmap created: 2026-02-26*
-*Last updated: 2026-03-10 -- Phase 7 complete*
+*Last updated: 2026-03-10 -- Phase 8 planned*
