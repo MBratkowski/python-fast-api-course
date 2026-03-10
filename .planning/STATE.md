@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-status: completed
-stopped_at: Completed 07-02-PLAN.md
-last_updated: "2026-03-10T17:17:59.492Z"
-last_activity: 2026-03-10 -- Completed 07-02 (Module 023 Rate Limiting, Module 024 Microservices Basics)
+status: in-progress
+stopped_at: Completed 08-02-PLAN.md
+last_updated: "2026-03-10T17:36:36Z"
+last_activity: 2026-03-10 -- Completed 08-02 (Module 025 README and Project Guide)
 progress:
   total_phases: 8
-  completed_phases: 6
-  total_plans: 12
-  completed_plans: 10
-  percent: 83
+  completed_phases: 7
+  total_plans: 14
+  completed_plans: 12
+  percent: 86
 ---
 
 # Project State
@@ -21,23 +21,23 @@ progress:
 See: .planning/PROJECT.md (updated 2026-02-26)
 
 **Core value:** Every module delivers practical, hands-on learning content that a mobile developer can work through independently
-**Current focus:** Phase 7 complete -- Production Part B (Logging, Versioning, Rate Limiting, Microservices)
+**Current focus:** Phase 8 in progress -- Capstone (Module 025 README and Project Guide complete)
 
 ## Current Position
 
-Phase: 7 of 8 (Production Part B)
-Plan: 2 of 2 in current phase -- COMPLETE
-Status: Phase 7 complete
-Last activity: 2026-03-10 -- Completed 07-02 (Module 023 Rate Limiting, Module 024 Microservices Basics)
+Phase: 8 of 8 (Capstone)
+Plan: 2 of 3 in current phase -- COMPLETE
+Status: Phase 8 in progress
+Last activity: 2026-03-10 -- Completed 08-02 (Module 025 README and Project Guide)
 
-Progress: [████████░░] 83%
+Progress: [████████░░] 86%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 10
-- Average duration: 12 min
-- Total execution time: 2.0 hours
+- Total plans completed: 12
+- Average duration: 11 min
+- Total execution time: 2.1 hours
 
 **By Phase:**
 
@@ -57,6 +57,7 @@ Progress: [████████░░] 83%
 *Updated after each plan completion*
 | Phase 07 P01 | 13min | 2 tasks | 22 files |
 | Phase 07 P02 | 14min | 2 tasks | 22 files |
+| Phase 08 P02 | 3min | 3 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -102,6 +103,8 @@ Recent decisions affecting current work:
 - [07-02]: Rate limiting exercises implement algorithms from scratch (not slowapi) for deeper understanding
 - [07-02]: Module 024 exercises use httpx.ASGITransport to simulate multi-service architectures in single files
 - [07-02]: Redis pub/sub exercise uses fakeredis with decode_responses=True for string handling
+- [08-02]: E-Commerce payment integration (Stripe) marked as bonus to keep project options at comparable difficulty
+- [08-02]: Grading rubric: 100 points across 5 categories plus 10 bonus points
 
 ### Pending Todos
 
@@ -113,6 +116,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-10T17:08:54Z
-Stopped at: Completed 07-02-PLAN.md
+Last session: 2026-03-10T17:36:36Z
+Stopped at: Completed 08-02-PLAN.md
 Resume file: None

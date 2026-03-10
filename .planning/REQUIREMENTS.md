@@ -50,7 +50,7 @@ Requirements for creating all course module content. Each module gets theory fil
 
 ### Part 7: Capstone
 
-- [ ] **CAPS-01**: Module 025 — Capstone Project: 6 theory files (API design planning, database schema design, architecture patterns review, project setup, testing strategy, deployment checklist), 3 exercises (design review, schema modeling, test planning), enhanced project (update existing README with detailed starter templates)
+- [x] **CAPS-01**: Module 025 — Capstone Project: 6 theory files (API design planning, database schema design, architecture patterns review, project setup, testing strategy, deployment checklist), 3 exercises (design review, schema modeling, test planning), enhanced project (update existing README with detailed starter templates)
 
 ## v2 Requirements
 
@@ -92,7 +92,7 @@ None — this milestone covers all planned modules.
 | PROD-06 | Phase 7 | Complete |
 | PROD-07 | Phase 7 | Complete |
 | PROD-08 | Phase 7 | Complete |
-| CAPS-01 | Phase 8 | Pending |
+| CAPS-01 | Phase 8 | Complete |
 
 **Coverage:**
 - v1 requirements: 24 total
