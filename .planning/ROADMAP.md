@@ -20,6 +20,8 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [ ] **Phase 6: Production Part A** - Docker, CI/CD, security hardening, and performance optimization
 - [x] **Phase 7: Production Part B** - Logging, API versioning, rate limiting, and microservices (completed 2026-03-08)
 - [x] **Phase 8: Capstone** - Comprehensive project integrating all prior concepts (completed 2026-03-10)
+- [ ] **Phase 9: Complete Missing Module Content** - Finish Module 018 (CI/CD) and Module 020 (Performance) content
+- [ ] **Phase 10: Verify Existing Content & Fix Cross-References** - Verify Modules 017/019, fix capstone cross-refs, clean up tech debt
 
 ## Phase Details
 
@@ -145,6 +147,31 @@ Plans:
 - [ ] 08-01-PLAN.md — Module 025 theory files (6 synthesis documents) and exercises (3 planning artifact exercises with Pydantic + pytest)
 - [ ] 08-02-PLAN.md — Module 025 README (standard module framing) and project/README.md (rubrics, phased guide, starter templates)
 
+### Phase 9: Complete Missing Module Content
+**Goal**: Module 018 (CI/CD) and Module 020 (Performance) have all required theory, exercises, and project content
+**Depends on**: Phase 8
+**Requirements**: PROD-02, PROD-04
+**Gap Closure:** Closes gaps from audit
+**Success Criteria** (what must be TRUE):
+  1. Module 018 contains all 6 theory files, 3 exercises, and 1 project following the established content pattern
+  2. Module 020 contains all 6 theory files, 3 exercises, and 1 project following the established content pattern
+**Plans**: 0 plans (pending)
+
+### Phase 10: Verify Existing Content & Fix Cross-References
+**Goal**: Modules 017 and 019 are formally verified, all cross-reference errors in capstone and other modules are corrected, and Phase 6 has proper VERIFICATION.md and SUMMARY.md
+**Depends on**: Phase 9
+**Requirements**: PROD-01, PROD-03
+**Gap Closure:** Closes gaps from audit
+**Success Criteria** (what must be TRUE):
+  1. Module 017 (Docker) content verified complete with VERIFICATION.md evidence
+  2. Module 019 (Security) content verified complete with VERIFICATION.md evidence
+  3. 7 incorrect module-to-topic cross-references in capstone READMEs are corrected
+  4. Capstone references to Module 020 content are valid (no phantom references)
+  5. Module 009 README library references updated (bcrypt→pwdlib, python-jose→PyJWT)
+  6. Duplicate empty 012-async-python/ directory removed
+  7. Phase 6 has VERIFICATION.md and SUMMARY.md
+**Plans**: 0 plans (pending)
+
 ## Progress
 
 **Execution Order:**
@@ -160,6 +187,8 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 6. Production Part A | 0/2 | Not started | - |
 | 7. Production Part B | 2/2 | Complete   | 2026-03-08 |
 | 8. Capstone | 2/2 | Complete   | 2026-03-10 |
+| 9. Complete Missing Content | 0/0 | Not started | - |
+| 10. Verify & Fix Cross-Refs | 0/0 | Not started | - |
 
 ---
 *Roadmap created: 2026-02-26*

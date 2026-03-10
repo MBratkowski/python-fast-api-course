@@ -84,10 +84,10 @@ None — this milestone covers all planned modules.
 | FEAT-02 | Phase 5 | Complete |
 | FEAT-03 | Phase 5 | Complete |
 | FEAT-04 | Phase 5 | Complete |
-| PROD-01 | Phase 6 | Pending |
-| PROD-02 | Phase 6 | Pending |
-| PROD-03 | Phase 6 | Pending |
-| PROD-04 | Phase 6 | Pending |
+| PROD-01 | Phase 10 | Pending |
+| PROD-02 | Phase 9 | Pending |
+| PROD-03 | Phase 10 | Pending |
+| PROD-04 | Phase 9 | Pending |
 | PROD-05 | Phase 7 | Complete |
 | PROD-06 | Phase 7 | Complete |
 | PROD-07 | Phase 7 | Complete |
@@ -101,4 +101,4 @@ None — this milestone covers all planned modules.
 
 ---
 *Requirements defined: 2026-02-26*
-*Last updated: 2026-02-26 — Phase 3 requirements marked Complete*
+*Last updated: 2026-03-10 — PROD-01/03 reassigned to Phase 10, PROD-02/04 reassigned to Phase 9 (gap closure)*
