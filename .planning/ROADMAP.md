@@ -144,8 +144,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 08-01-PLAN.md — Module 025 theory files (6 synthesis documents) and exercises (3 planning artifact exercises with Pydantic + pytest)
-- [ ] 08-02-PLAN.md — Module 025 README (standard module framing) and project/README.md (rubrics, phased guide, starter templates)
+- [x] 08-01-PLAN.md — Module 025 theory files (6 synthesis documents) and exercises (3 planning artifact exercises with Pydantic + pytest)
+- [x] 08-02-PLAN.md — Module 025 README (standard module framing) and project/README.md (rubrics, phased guide, starter templates)
 
 ### Phase 9: Complete Missing Module Content
 **Goal**: Module 018 (CI/CD) and Module 020 (Performance) have all required theory, exercises, and project content
@@ -155,7 +155,11 @@ Plans:
 **Success Criteria** (what must be TRUE):
   1. Module 018 contains all 6 theory files, 3 exercises, and 1 project following the established content pattern
   2. Module 020 contains all 6 theory files, 3 exercises, and 1 project following the established content pattern
-**Plans**: 0 plans (pending)
+**Plans**: 2 plans
+
+Plans:
+- [ ] 09-01-PLAN.md — Module 018: Complete CI/CD theory (files 04-06), exercises (3), and project README (Wave 1)
+- [ ] 09-02-PLAN.md — Module 020: Complete Performance Optimization README rewrite, theory (6), exercises (3), and project README (Wave 1)
 
 ### Phase 10: Verify Existing Content & Fix Cross-References
 **Goal**: Modules 017 and 019 are formally verified, all cross-reference errors in capstone and other modules are corrected, and Phase 6 has proper VERIFICATION.md and SUMMARY.md
@@ -187,9 +191,9 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 6. Production Part A | 0/2 | Not started | - |
 | 7. Production Part B | 2/2 | Complete   | 2026-03-08 |
 | 8. Capstone | 2/2 | Complete   | 2026-03-10 |
-| 9. Complete Missing Content | 0/0 | Not started | - |
+| 9. Complete Missing Content | 0/2 | Not started | - |
 | 10. Verify & Fix Cross-Refs | 0/0 | Not started | - |
 
 ---
 *Roadmap created: 2026-02-26*
-*Last updated: 2026-03-10 -- Phase 8 planned*
+*Last updated: 2026-03-10 -- Phase 9 planned*
