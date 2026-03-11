@@ -171,10 +171,14 @@ Plans:
   2. Module 019 (Security) content verified complete with VERIFICATION.md evidence
   3. 7 incorrect module-to-topic cross-references in capstone READMEs are corrected
   4. Capstone references to Module 020 content are valid (no phantom references)
-  5. Module 009 README library references updated (bcrypt→pwdlib, python-jose→PyJWT)
+  5. Module 009 README library references updated (bcrypt->pwdlib, python-jose->PyJWT)
   6. Duplicate empty 012-async-python/ directory removed
   7. Phase 6 has VERIFICATION.md and SUMMARY.md
-**Plans**: 0 plans (pending)
+**Plans**: 2 plans
+
+Plans:
+- [ ] 10-01-PLAN.md — Verify Modules 017/019 content completeness and create Phase 6 supersession docs (Wave 1)
+- [ ] 10-02-PLAN.md — Fix capstone cross-references, Module 009 library refs, CLAUDE.md, remove duplicate dir (Wave 1)
 
 ## Progress
 
@@ -192,8 +196,8 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 7. Production Part B | 2/2 | Complete   | 2026-03-08 |
 | 8. Capstone | 2/2 | Complete   | 2026-03-10 |
 | 9. Complete Missing Content | 2/2 | Complete   | 2026-03-10 |
-| 10. Verify & Fix Cross-Refs | 0/0 | Not started | - |
+| 10. Verify & Fix Cross-Refs | 0/2 | Not started | - |
 
 ---
 *Roadmap created: 2026-02-26*
-*Last updated: 2026-03-10 -- Phase 9 planned*
+*Last updated: 2026-03-11 -- Phase 10 planned*
