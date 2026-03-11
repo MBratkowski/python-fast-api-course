@@ -62,6 +62,7 @@ Progress: [█████████░] 94%
 | Phase 09 P01 | 5min | 2 tasks | 7 files |
 | Phase 09 P02 | 8min | 2 tasks | 11 files |
 | Phase 10 P01 | 3min | 2 tasks | 3 files |
+| Phase 10 P02 | 3min | 2 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -121,6 +122,8 @@ Recent decisions affecting current work:
 - [09-02]: Theory files include comparison tables mapping mobile profiling tools to Python equivalents
 - [10-01]: Module 019 rate-limiting theory uses slowapi (not from-scratch) -- info-level finding, not a conflict with Phase 7 exercises
 - [10-01]: Phase 6 documented as superseded with requirement tracing to actual completion paths
+- [10-02]: Fixed Module 017 name and Modules 019-022 topic mappings in capstone READMEs
+- [10-02]: Updated Module 009 README and CLAUDE.md to reference PyJWT and pwdlib+Argon2
 
 ### Pending Todos
 
@@ -132,6 +135,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-11T17:27:09Z
-Stopped at: Completed 10-01-PLAN.md
+Last session: 2026-03-11T17:27:12Z
+Stopped at: Completed 10-02-PLAN.md
 Resume file: None
