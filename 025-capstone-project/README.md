@@ -49,12 +49,12 @@ Before starting, you should have completed:
 - [ ] Module 014: Caching with Redis
 - [ ] Module 015: File Handling
 - [ ] Module 016: WebSockets
-- [ ] Module 017: Docker and Deployment
+- [ ] Module 017: Docker and Containers
 - [ ] Module 018: CI/CD Pipelines
-- [ ] Module 019: Logging and Monitoring
-- [ ] Module 020: Health Checks
-- [ ] Module 021: API Versioning
-- [ ] Module 022: API Documentation
+- [ ] Module 019: Security Best Practices
+- [ ] Module 020: Performance Optimization
+- [ ] Module 021: Logging and Monitoring
+- [ ] Module 022: API Versioning
 - [ ] Module 023: Rate Limiting
 - [ ] Module 024: Microservices Basics
 

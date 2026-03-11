@@ -6,7 +6,7 @@ Secure your API. Learn JWT (JSON Web Tokens) - the standard for API authenticati
 
 ## What You'll Learn
 
-- Password hashing (bcrypt)
+- Password hashing (pwdlib + Argon2)
 - JWT tokens (access + refresh)
 - Login/signup endpoints
 - Token validation
@@ -21,7 +21,7 @@ You know how to store and send tokens from the client. Now learn how to generate
 
 ### Theory
 1. Authentication vs Authorization
-2. Password Hashing with bcrypt
+2. Password Hashing with Argon2
 3. JWT Structure & Claims
 4. Access vs Refresh Tokens
 5. Token Expiration & Rotation
@@ -35,7 +35,7 @@ Implement complete auth system: signup, login, refresh, logout.
 ```python
 from fastapi import Depends, HTTPException
 from fastapi.security import OAuth2PasswordBearer
-from jose import jwt, JWTError
+import jwt
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="auth/login")
 
@@ -46,7 +46,7 @@ async def get_current_user(
     try:
         payload = jwt.decode(token, SECRET_KEY, algorithms=["HS256"])
         user_id = payload.get("sub")
-    except JWTError:
+    except jwt.InvalidTokenError:
         raise HTTPException(status_code=401, detail="Invalid token")
 
     user = await user_service.get_by_id(db, int(user_id))

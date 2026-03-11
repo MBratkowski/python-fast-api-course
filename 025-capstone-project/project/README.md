@@ -168,7 +168,7 @@ Reference: Modules 013 (background tasks), 014 (Redis caching), 015 (file handli
 - [ ] Review OWASP security checklist (CORS, input sanitization, SQL injection prevention)
 - [ ] Fix any N+1 query issues (use joinedload/selectinload)
 
-Reference: Modules 019 (logging), 020 (health checks), 021 (versioning), 023 (rate limiting)
+Reference: Modules 019 (security), 020 (performance), 021 (logging), 023 (rate limiting)
 
 ### Phase 6: Polish and Deploy (Week 6)
 
@@ -180,7 +180,7 @@ Reference: Modules 019 (logging), 020 (health checks), 021 (versioning), 023 (ra
 - [ ] Create comprehensive project README (setup, architecture, API summary)
 - [ ] Final code review against the grading rubric above
 
-Reference: Modules 018 (CI/CD), 022 (API documentation)
+Reference: Modules 018 (CI/CD), 022 (versioning)
 
 ## Starter Templates
 
@@ -428,5 +428,6 @@ Review these modules when you need a refresher on specific topics:
 - **Testing:** Module 011 (Testing FastAPI)
 - **Async:** Module 012 (Async Python), Module 013 (Background Tasks)
 - **Infrastructure:** Module 014 (Redis), Module 017 (Docker), Module 018 (CI/CD)
-- **Production:** Module 019 (Logging), Module 020 (Health Checks), Module 023 (Rate Limiting)
-- **Advanced:** Module 015 (File Handling), Module 016 (WebSockets), Module 021 (Versioning), Module 024 (Microservices)
+- **Security:** Module 019 (Security Best Practices), Module 023 (Rate Limiting)
+- **Production:** Module 020 (Performance Optimization), Module 021 (Logging and Monitoring)
+- **Advanced:** Module 015 (File Handling), Module 016 (WebSockets), Module 022 (API Versioning), Module 024 (Microservices)

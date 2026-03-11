@@ -11,7 +11,7 @@ Backend Development Mastery - A hands-on course for mobile developers transition
 - **Language**: Python 3.12+
 - **Framework**: FastAPI
 - **Database**: PostgreSQL + SQLAlchemy
-- **Auth**: JWT (python-jose)
+- **Auth**: JWT (PyJWT)
 - **Validation**: Pydantic v2
 - **Testing**: pytest + httpx
 - **Containers**: Docker
